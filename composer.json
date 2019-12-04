@@ -1,0 +1,18 @@
+{
+  "name": "vote-by-boons",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "codeable"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codeable\\Poll\\": "src"
+    }
+  },
+  "require": {
+    "premmerce/wordpress-sdk": "^2.0"
+  }
+
+}
